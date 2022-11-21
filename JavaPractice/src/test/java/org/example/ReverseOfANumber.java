@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 public class ReverseOfANumber {
     @Test
     public void fnReverseOfANumber(){
-        int iMyNumber=1234;
+        int iMyNumber=222;
         int rev=0;
         while(iMyNumber !=0){
             int Number=iMyNumber % 10;
