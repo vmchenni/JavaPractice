@@ -2,7 +2,7 @@ package org.example;
 
 import org.junit.jupiter.api.Test;
 
-public class PrimeNumber {
+public class primeNumber {
     @Test
     public void fnPrimeNumber(){
         int iNumber=13;
