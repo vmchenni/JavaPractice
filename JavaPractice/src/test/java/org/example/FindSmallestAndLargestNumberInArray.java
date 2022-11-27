@@ -11,8 +11,7 @@ public class FindSmallestAndLargestNumberInArray {
         for(int i=1;i<arr.length;i++){
             if(arr[i]>iBig){
                 iBig=arr[i];
-            }
-            if(arr[i]<iSmall){
+            }else if(arr[i]<iSmall){
                 iSmall=arr[i];
             }
         }
