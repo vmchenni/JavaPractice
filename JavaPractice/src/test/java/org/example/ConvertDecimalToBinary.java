@@ -3,7 +3,7 @@ import java.util.*;
 public class ConvertDecimalToBinary {
     public static void main(String[] args){
 //        System.out.println(fnConvertDecimalToBinary(156));
-       fnConvertDecimalToBinary(156);
+       fnConvertDecimalToBinary(150);
 
     }
     public static void fnConvertDecimalToBinary(int n){
