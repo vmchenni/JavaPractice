@@ -1,7 +1,12 @@
 package org.example;
 
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class FindSmallestAndLargestNumberInArray {
     @Test
     public void fnFindSmallestAndLargestNumberInArray(){
@@ -18,4 +23,5 @@ public class FindSmallestAndLargestNumberInArray {
         System.out.println("Array is :-"+Arrays.toString(arr));
         System.out.println("The small number is "+iSmall+" and Bing number is "+iBig+"");
     }
+
 }
