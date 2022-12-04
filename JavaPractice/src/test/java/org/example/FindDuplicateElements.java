@@ -25,32 +25,5 @@ public class FindDuplicateElements {
             }
         }
     }
-    @Test
-    public void fnDuplicateNumber(){
-        int[] iArray={1,2,3,4,5,6,7,7,8,9,0,0};
-        Set<Integer> set1= new HashSet<>();
-        for(int i:iArray){
-            if(!set1.add(i)){
-                System.out.println("Duplicate number is :-"+i);
-            }
-        }
-    }
-    @Test
-    public void fnCountOccurenceOfString(){
-        String str="Welcome to Hong Kong and Hong Kong Welcomes You";
-        String[] sArray=str.split(" ");
-        Set<String> sUniqueValues = new HashSet<>(Arrays.asList(sArray));
-        Iterator<String> iterator=sUniqueValues.iterator();
-        while (iterator.hasNext()){
-//            System.out.println(iterator.next());
-            String sValue= iterator.next();
-            int count = 0;
-            for (String s : sArray) {
-                if (sValue.equals(s)) {
-                    count++;
-                }
-            }
-            System.out.println("The Value "+sValue+" occured "+count+" times");
-        }
-    }
+
 }
