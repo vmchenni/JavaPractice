@@ -5,13 +5,12 @@ import org.junit.jupiter.api.Test;
 public class ReverseOfANumber {
     @Test
     public void fnReverseOfANumber(){
-        int iMyNumber=222;
+        int iMyNumber=1234;
         int rev=0;
-        while(iMyNumber !=0){
-            int Number=iMyNumber % 10;
-            rev=rev *10 +Number;
+        while(iMyNumber!=0){
+            rev=rev*10+(iMyNumber %10);
             iMyNumber=iMyNumber/10;
         }
-        System.out.println("Rveresed Number:-"+rev);
+        System.out.println(rev);
     }
 }
