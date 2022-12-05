@@ -2,10 +2,7 @@ package org.example;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class FindOurrenceOfWord {
     @Test
@@ -26,4 +23,5 @@ public class FindOurrenceOfWord {
             System.out.println("The Value "+sValue+" occured "+count+" times");
         }
     }
+
 }
