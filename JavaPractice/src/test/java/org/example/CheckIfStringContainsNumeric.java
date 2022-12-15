@@ -7,17 +7,20 @@ public class CheckIfStringContainsNumeric {
     public void fnCheckIfStringContainsNumeric(){
         String str="12HelloWorld";
         System.out.println(isContainsNumeric(str));
-
     }
 
     private boolean isContainsNumeric(String str) {
         boolean isContainNumber=false;
-        for(int i=0;i< str.length();i++){
-            if(Character.isDigit(str.charAt(i))){
-               isContainNumber=true;
-               break;
+        if(str.trim().length() > 0){
+            for(int i=0;i< str.length();i++){
+                if(Character.isDigit(str.charAt(i))){
+                    isContainNumber=true;
+                    break;
+                }
             }
+            return isContainNumber;
+        }else{
+            return isContainNumber;
         }
-        return isContainNumber;
     }
 }
